@@ -1,6 +1,20 @@
 ESP32-C6 Zigbee Dimmable Light - Technical Overview
 ================================================
 
+Project Overview
+---------------
+This project implements a battery-powered Zigbee dimmable light using the ESP32-C6 microcontroller. It's designed for low-power operation while providing reliable lighting control and network connectivity. The system features:
+
+- Zigbee 3.0 compatibility for smart home integration
+- PWM-based LED brightness control with smooth transitions
+- Advanced battery management with voltage monitoring
+- Power-efficient operation with multiple sleep states
+- Physical button control with multi-function support
+- Over-the-air update capability
+- Robust error handling and recovery mechanisms
+
+The light can be controlled through any Zigbee coordinator (like ZHA, Zigbee2MQTT) and integrates seamlessly with home automation systems. It's particularly suitable for battery-powered applications where long battery life and reliable operation are crucial.
+
 Hardware Configuration
 --------------------
 Board: Seeed XIAO ESP32C6
